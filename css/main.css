@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
 html {
-  background-image: url("../IMG/fondoprincipal.jpg");
+  background-image: url("../img/fondoprincipal.jpg");
   width: 100%;
   height: 100%;
   background-color: darkgrey;
@@ -131,7 +131,10 @@ main div.card {
   padding-right: 20px, 20px;
   text-align: justify;
   background-color: rgba(0, 0, 0, 0.3);
-  text-shadow: 1px  0px 0px gray, 0px  1px 0px gray, -1px  0px 0px gray, 0px -1px 0px gray; }
+  text-shadow: 1px  0px 0px gray,
+ 0px  1px 0px gray,
+ -1px  0px 0px gray,
+ 0px -1px 0px gray; }
   main div.card .card-title {
     text-align: center;
     font-family: linkinpark;
@@ -222,7 +225,10 @@ a.enlaces {
   font-family: linkinpark;
   color: #1f1a17;
   text-decoration: none;
-  text-shadow: 1px  0px 0px black, 0px  1px 0px black, -1px  0px 0px black, 0px -1px 0px black;
+  text-shadow: 1px  0px 0px black,
+ 0px  1px 0px black,
+ -1px  0px 0px black,
+ 0px -1px 0px black;
   flex-grow: 1;
   text-align: center;
   padding: 30px;
