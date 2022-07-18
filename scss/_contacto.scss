@@ -1,0 +1,45 @@
+.main-contacto{
+
+
+    .formulario{
+        font-family: linkinpark;
+        color:rgb(31, 26, 23) ;
+        text-decoration: none;
+            margin: auto;
+            padding: 90px;
+            box-sizing: border-box;
+            width: 400px;
+            background: rgba(36, 27, 27, 0.3);
+            margin-top: 100px;
+            font-size: larger;
+            border-radius: 4px;
+
+            .controls{
+                width: 100%;
+                background: rgba(68, 63, 63, 0.3);
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 16px;
+                border: 1px solid rgba(3, 1, 1, 0.3);
+                font-size: large;
+                font-family: linkinpark;
+                text-align: center;
+        
+                
+            }
+
+            .boton{
+                width: 245px;
+                background-color:rgba(3, 1, 1, 0.3);
+                border-radius: 10px;
+                border: none;
+                text-align: center;
+                font-size: large;
+                padding: 10px;
+                margin: 16px 0;
+                font-family: linkinpark;
+                cursor: pointer;
+            }
+    }
+
+}

@@ -1,0 +1,40 @@
+header{
+    text-decoration: none;
+    margin: 1%;
+    ul{
+        li{
+            display: block;
+            padding: auto;
+            margin: auto;
+            &:hover{
+                text-decoration: none;
+                background: rgba(0, 0, 0, 0.3);
+                animation-name: animacion1;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+        }
+        }
+    }
+
+
+
+a.enlaces{
+    font-size: 50px;
+    font-family: linkinpark;
+    color:rgb(31, 26, 23) ;
+    text-decoration: none;
+    text-shadow: 1px  0px 0px black,
+        0px  1px 0px black,
+        -1px  0px 0px black,
+        0px -1px 0px black;
+        flex-grow: 1;
+        text-align: center;
+        padding: 30px;
+        margin: auto;
+}
+
+@keyframes animacion1 {
+    75%{background-color: rgba(167, 167, 167, 0.3);}
+    100%{background-color: rgba(0, 0, 0, 0.3);}
+}

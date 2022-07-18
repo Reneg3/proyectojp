@@ -1,0 +1,10 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@font-face {
+    font-family:linkinpark ;
+    src: url(../fuentes/LinkinPark.ttf);
+}
+@keyframes animacion1 {
+    75%{background-color: rgba(167, 167, 167, 0.3);}
+    100%{background-color: rgba(0, 0, 0, 0.3);}
+}

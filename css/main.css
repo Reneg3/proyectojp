@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+html {
+  background-image: url("../IMG/fondoprincipal.jpg");
+  width: 100%;
+  height: 100%;
+  background-color: darkgrey;
+  background-attachment: fixed; }
+
+body {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  display: grid; }
+  body .bodyprincipal {
+    font-size: 100.5%; }
+
+.img {
+  align-items: center;
+  padding: 30px;
+  margin: auto;
+  height: 100%;
+  width: 100%; }
+
+img {
+  width: 200px;
+  height: 200px; }
+
+.navbar-text .logocontact {
+  display: block;
+  margin: auto;
+  padding: 20px; }
+
+.mainproyecto1 {
+  padding: 8%;
+  margin: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .mainproyecto1 .albumes {
+    background-color: transparent;
+    float: right;
+    height: 60px;
+    width: 97%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: linkinpark; }
+
+.contenedorimg {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column; }
+  .contenedorimg .box {
+    border: ridge 5px;
+    width: 175px;
+    height: 175px;
+    background-color: transparent;
+    margin: 15px;
+    float: right;
+    border-color: transparent; }
+    .contenedorimg .box:hover {
+      border: ridge 5px;
+      transition: 2s;
+      border-color: black; }
+
+@media (min-width: 769px) {
+  .contenedorimg {
+    flex-direction: row;
+    align-items: center; } }
+
+article .titlelp {
+  text-align: center;
+  margin: 50px auto;
+  padding-left: 50px;
+  border: hidden;
+  background-color: transparent; }
+  article .titlelp .titulolp {
+    text-decoration: none;
+    text-align: center;
+    margin: 50px auto;
+    padding-left: 50px;
+    border: hidden;
+    background-color: transparent;
+    color: black;
+    font-family: linkinpark;
+    font-size: 60px; }
+
+article .text-center {
+  text-align: justify;
+  margin: 50px;
+  padding: 50px;
+  border: outset black;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.d-block {
+  max-height: 400px;
+  min-height: 400px;
+  max-width: 400px;
+  min-width: 400px;
+  margin: auto; }
+
+.mainmerch {
+  background-color: transparent;
+  display: block;
+  flex-wrap: nowrap;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center; }
+  .mainmerch .productos {
+    background-color: transparent;
+    float: right;
+    height: 80px;
+    width: 97%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: linkinpark; }
+
+main div.card {
+  border: 3px;
+  border-radius: 40px;
+  display: inline-block;
+  flex-direction: column;
+  width: auto;
+  margin: auto;
+  padding-right: 20px, 20px;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-shadow: 1px  0px 0px gray, 0px  1px 0px gray, -1px  0px 0px gray, 0px -1px 0px gray; }
+  main div.card .card-title {
+    text-align: center;
+    font-family: linkinpark;
+    font-size: medium; }
+    main div.card .card-title div.card-body {
+      display: inline-grid;
+      margin: 10px;
+      padding: 35px; }
+
+a.btn.btn-primary {
+  margin-left: 30px;
+  margin-right: auto;
+  width: 190px;
+  font-family: linkinpark;
+  font-size: 20px;
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(185, 184, 184, 0.3);
+  border-color: transparent; }
+
+.main-contacto .formulario {
+  font-family: linkinpark;
+  color: #1f1a17;
+  text-decoration: none;
+  margin: auto;
+  padding: 90px;
+  box-sizing: border-box;
+  width: 400px;
+  background: rgba(36, 27, 27, 0.3);
+  margin-top: 100px;
+  font-size: larger;
+  border-radius: 4px; }
+  .main-contacto .formulario .controls {
+    width: 100%;
+    background: rgba(68, 63, 63, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(3, 1, 1, 0.3);
+    font-size: large;
+    font-family: linkinpark;
+    text-align: center; }
+  .main-contacto .formulario .boton {
+    width: 245px;
+    background-color: rgba(3, 1, 1, 0.3);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    margin: 16px 0;
+    font-family: linkinpark;
+    cursor: pointer; }
+
+@font-face {
+  font-family: linkinpark;
+  src: url(../fuentes/LinkinPark.ttf); }
+
+@keyframes animacion1 {
+  75% {
+    background-color: rgba(167, 167, 167, 0.3); }
+  100% {
+    background-color: rgba(0, 0, 0, 0.3); } }
+
+.iconos {
+  text-decoration: none;
+  font-size: 50px;
+  color: black; }
+
+header {
+  text-decoration: none;
+  margin: 1%; }
+  header ul li {
+    display: block;
+    padding: auto;
+    margin: auto; }
+    header ul li:hover {
+      text-decoration: none;
+      background: rgba(0, 0, 0, 0.3);
+      animation-name: animacion1;
+      animation-duration: 3s;
+      animation-iteration-count: infinite; }
+
+a.enlaces {
+  font-size: 50px;
+  font-family: linkinpark;
+  color: #1f1a17;
+  text-decoration: none;
+  text-shadow: 1px  0px 0px black, 0px  1px 0px black, -1px  0px 0px black, 0px -1px 0px black;
+  flex-grow: 1;
+  text-align: center;
+  padding: 30px;
+  margin: auto; }
+
+@keyframes animacion1 {
+  75% {
+    background-color: rgba(167, 167, 167, 0.3); }
+  100% {
+    background-color: rgba(0, 0, 0, 0.3); } }
