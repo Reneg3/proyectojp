@@ -6,6 +6,9 @@ html {
   background-color: darkgrey;
   background-attachment: fixed; }
 
+h4 {
+  text-align: center; }
+
 body {
   background-color: transparent;
   height: 100%;
@@ -25,14 +28,20 @@ img {
   width: 200px;
   height: 200px; }
 
+img .logobanda {
+  padding: 80%;
+  margin: 70%;
+  height: 50%;
+  width: 50%; }
+
 .navbar-text .logocontact {
   display: block;
   margin: auto;
   padding: 20px; }
 
 .mainproyecto1 {
-  padding: 8%;
-  margin: 8%;
+  padding: 10px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -114,10 +123,12 @@ article .text-center {
   .mainmerch .productos {
     background-color: transparent;
     float: right;
-    height: 80px;
+    height: 100px;
+    padding: 70px;
+    margin: 50px;
     width: 97%;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     color: black;
     font-family: linkinpark; }
 
@@ -131,10 +142,7 @@ main div.card {
   padding-right: 20px, 20px;
   text-align: justify;
   background-color: rgba(0, 0, 0, 0.3);
-  text-shadow: 1px  0px 0px gray,
- 0px  1px 0px gray,
- -1px  0px 0px gray,
- 0px -1px 0px gray; }
+  text-shadow: 1px  0px 0px gray, 0px  1px 0px gray, -1px  0px 0px gray, 0px -1px 0px gray; }
   main div.card .card-title {
     text-align: center;
     font-family: linkinpark;
@@ -156,6 +164,18 @@ a.btn.btn-primary {
   text-align: center;
   background-color: rgba(185, 184, 184, 0.3);
   border-color: transparent; }
+
+section .boton {
+  width: 245px;
+  background-color: rgba(3, 1, 1, 0.3);
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: large;
+  padding: 10px;
+  margin: 16px 0;
+  font-family: linkinpark;
+  cursor: pointer; }
 
 .main-contacto .formulario {
   font-family: linkinpark;
@@ -209,26 +229,26 @@ a.btn.btn-primary {
 header {
   text-decoration: none;
   margin: 1%; }
-  header ul li {
-    display: block;
-    padding: auto;
-    margin: auto; }
-    header ul li:hover {
-      text-decoration: none;
-      background: rgba(0, 0, 0, 0.3);
-      animation-name: animacion1;
-      animation-duration: 3s;
-      animation-iteration-count: infinite; }
+  header ul {
+    padding: 10px;
+    margin: 5px; }
+    header ul li {
+      display: block;
+      padding: auto;
+      margin: auto; }
+      header ul li:hover {
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.3);
+        animation-name: animacion1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite; }
 
 a.enlaces {
   font-size: 50px;
   font-family: linkinpark;
   color: #1f1a17;
   text-decoration: none;
-  text-shadow: 1px  0px 0px black,
- 0px  1px 0px black,
- -1px  0px 0px black,
- 0px -1px 0px black;
+  text-shadow: 1px  0px 0px black, 0px  1px 0px black, -1px  0px 0px black, 0px -1px 0px black;
   flex-grow: 1;
   text-align: center;
   padding: 30px;
