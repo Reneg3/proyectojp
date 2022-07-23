@@ -1,14 +1,22 @@
+.fondo404{
+    background: url(../img/link.jpg);
+}
 html{
     background-image: url("../img/fondoprincipal.jpg"); 
     width: 100%;
     height: 100%;
     background-color: darkgrey;
     background-attachment: fixed;
+    overflow-x: hidden
+}
+.card{
+    margin: auto;
 }
 
 h4{
     text-align: center;
 }
+
 
 body{
     background-color: transparent;
@@ -18,6 +26,13 @@ body{
         .bodyprincipal{
             font-size: 100.5%;
         }
+}
+.bodyerror404{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .img{
     align-items: center;
