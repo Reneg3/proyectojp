@@ -179,15 +179,15 @@ a.btn.btn-primary {
   background-color: rgba(185, 184, 184, 0.3);
   border-color: transparent; }
 
-section .boton {
-  width: 245px;
+.main-contacto .formulario a .boton {
+  width: 225px;
   background-color: rgba(3, 1, 1, 0.3);
   border-radius: 10px;
   border: none;
   text-align: center;
   font-size: large;
   padding: 10px;
-  margin: 16px 0;
+  margin: 16px 0 16 0;
   font-family: linkinpark;
   cursor: pointer; }
 
